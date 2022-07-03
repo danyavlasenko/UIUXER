@@ -80,8 +80,6 @@ select {
     padding: 0px 15px;
 }
 /*=======================================================================THE MAIN=====================================================================================*/
-/*font-family: 'Fraunces', serif;
-*/
 
 body {
     min-height: 100vh;
@@ -137,9 +135,10 @@ body {
 }
 .get-started {
   padding: 120px 0 0 0;
+  margin-bottom: 100px;
 }
 .footer{
-  background: url(../image/IMAGEdecorate02.png) center/cover no-repeat;
+  background: url(image/decorate02.jpg) center/cover no-repeat;
   padding: 120px 0 0 0;
 
 }
@@ -170,7 +169,8 @@ body {
 }
 /*============================================================================TELL================================================================================*/
 .tell__container {
-  background: url(../image/decorate.png) center/cover no-repeat;
+  background:url(image/decorate.jpg)center/cover no-repeat;
+  max-width: 100%;
   border-radius: 15px;
   padding: 136px;
   margin-bottom: 120px;
@@ -178,9 +178,9 @@ body {
 .tell__decorate {
 }
 .tell__body{
-
 }
 .tell__information {
+
 }
 .information {
 }
@@ -249,10 +249,12 @@ body {
 }
 .scroll__arrow{
   display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .scroll__text {
-  background: url(../image/arrow.svg) center no-repeat;
-  padding: 0 0 135px 0;
+  padding: 0 0 20px 0;
   text-align: center;
   color: #242F65;
   font-size: 24px;
@@ -320,12 +322,6 @@ body {
 .body_picture {
   flex: 0 1 50%;
 }
-/*
-.body_picture:hover{
-  transition: all 1800ms cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
-  transform: scale(0.5,0.5);
-}
-/*
 /*============================================================================CASE================================================================================*/
 .case__container {
   display: flex;
@@ -449,7 +445,7 @@ body {
 .get-started__container {
   padding: 120px 60px 0 60px;
   display: flex;
-  background: url(../image/decorate.png) center/cover no-repeat;
+  background: url(image/decorate.jpg) center/cover no-repeat;
   border-radius: 20px;
 }
 .get__started__background {
@@ -589,37 +585,6 @@ body {
 .footer__more{
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*==========================================================================MEDIA-REQUESTS==================================================================================*/
 @media (max-width:1087px) {
 
@@ -837,9 +802,5 @@ body {
   .get-started__subtitle{
   width: 220px;
   }
-
 }
-    
-
-
 /*============================================================================================================================================================*/
